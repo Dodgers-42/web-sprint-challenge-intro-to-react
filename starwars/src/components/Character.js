@@ -1,15 +1,15 @@
-// Write your Character component here
 import React from "react";
-// import StarWarsPics from './components/StarWarsPics';
+
 
 const Character = (props) => {
-    console.log(props.starWarsCharacter)
+    console.log(props.starWarsPics);
     return (
-        <div className="character">
 
-           {/* <StarWarsPics starWarsPics = {props.starWarsCharacter.people}/>  */}
+        <div className="starwarspics">
+            {/* <name={props.starWarsPics}/> */}
+
+
         </div>
-
     );
 }
 
