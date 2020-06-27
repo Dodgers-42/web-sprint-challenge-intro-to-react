@@ -1,12 +1,16 @@
 // Write your Character component here
-import React, { useEffect } from "react"
+import React from "react";
+// import StarWarsPics from './components/StarWarsPics';
 
-const something = (props) => {
-
+const Character = (props) => {
+    console.log(props.starWarsCharacter)
     return (
-        <div></div>
+        <div className="character">
+
+           {/* <StarWarsPics starWarsPics = {props.starWarsCharacter.people}/>  */}
+        </div>
 
     );
 }
 
-export default something;
+export default Character;

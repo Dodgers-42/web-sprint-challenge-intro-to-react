@@ -1,7 +1,7 @@
 import React, { useState, } from 'react';
 import './App.css';
 import axios from 'axios';
-// import Character from 'character';
+import Character from './components/Character';
 
 function App() {
   //https://swapi.dev/
@@ -10,7 +10,7 @@ function App() {
   // the state properties here.
   React.useEffect(() => {
     axios
-    .get("https://swapi.dev/api/")
+    .get("http://swapi.dev/api/")
       .then(res => {setStarWars(res.data)
       console.log(res)})
         .catch(err => console.log(err))
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      {/* <Character /> */}
+      <Character starWarsCharacter={starWars}/>
     </div>
   );
 }
