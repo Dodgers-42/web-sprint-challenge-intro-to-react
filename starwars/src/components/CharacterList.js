@@ -8,6 +8,10 @@ const CharacterList = (props) => {
         <div className="character">
 
            {/* <StarWarsPics starWarsPics = {props.starWarsCharacter.results}/>  */}
+
+           {props.starWarsCharacter.results.map((p,i) =>(
+               <Character key={i} character={p}/>
+           ))}
         </div>
 
     );

@@ -6,7 +6,7 @@ const Character = (props) => {
     return (
 
         <div className="starwarspics">
-            {/* <name={props.starWarsPics}/> */}
+            {/* <name={props.character.name}/> */}
 
 
         </div>
