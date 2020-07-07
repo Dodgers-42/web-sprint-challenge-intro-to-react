@@ -1,6 +1,7 @@
 // Write your Character component here
 import React from "react";
 import Character from './Character';
+// import styled from 'styled-components';
 
 const CharacterList = (props) => {
     // console.log(props.starWarsCharacter.results.map)
@@ -16,5 +17,13 @@ const CharacterList = (props) => {
 
     );
 }
+
+// const Container = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     align-item: center;
+//     padding: 40px;
+// `
+
 
 export default CharacterList;
