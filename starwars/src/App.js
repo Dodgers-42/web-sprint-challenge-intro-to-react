@@ -5,7 +5,7 @@ import CharacterList from './components/CharacterList';
 
 function App() {
   //https://swapi.dev/
-  const [starWars, setStarWars] = useState({});
+  const [starWars, setStarWars] = useState({results:[]});
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
   React.useEffect(() => {
