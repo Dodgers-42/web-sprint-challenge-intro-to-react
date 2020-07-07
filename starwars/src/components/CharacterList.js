@@ -20,19 +20,7 @@ const CharacterList = (props) => {
     );
 }
 
-const Container = styled.div`
-display: flex;
-flex-direction: column;
-align-item: center;
-padding: 80px;
 
-    .cards-container {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-`
 
 
 export default CharacterList;
